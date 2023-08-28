@@ -36,3 +36,17 @@ header {
 .photo_desc {
     font-size: 10px;
 }
+
+p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+ul {
+    margin-left: 25px;
+    margin-bottom: 30px
+}
