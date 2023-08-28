@@ -13,6 +13,10 @@ header {
     margin-bottom: 20px;
 }
 
+main {
+    margin-left: 10px;
+}
+
 .logo {
     width: 20%;
     height: 100px;
@@ -48,7 +52,7 @@ p {
 }
 
 ul {
-    margin-left: 25px;
+    margin-left: 15px;
     margin-bottom: 30px
 }
 
@@ -59,7 +63,7 @@ table {
 
 .thead_row {
     background-color: #20AAE5;
-    height: 10%;
+    height: 15px;
 }
 
 .tbody_row {
@@ -74,4 +78,17 @@ table {
 .tablecell2 {
     width: 25%;
     height: 45px;
+}
+
+footer {
+    margin-left: 10px;
+}
+
+.foot_p {
+    color: #808080;
+    margin-bottom: 15px;
+}
+
+.foot_img {
+    margin-bottom: 15px;
 }
