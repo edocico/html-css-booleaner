@@ -31,6 +31,7 @@ header {
 #date {
     color: #808080;
     font-size: 12px;
+    margin-bottom: 20px;
 }
 
 .photo_desc {
@@ -49,4 +50,28 @@ p {
 ul {
     margin-left: 25px;
     margin-bottom: 30px
+}
+
+table {
+    width: 100%;
+    height: 300px;
+}
+
+.thead_row {
+    background-color: #20AAE5;
+    height: 10%;
+}
+
+.tbody_row {
+    background-color: #B1E5F2;
+}
+
+.tablecell1 {
+    width: 25%;
+    height: 45px;
+}
+
+.tablecell2 {
+    width: 25%;
+    height: 45px;
 }
