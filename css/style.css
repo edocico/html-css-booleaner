@@ -59,36 +59,37 @@ ul {
 /* tabella */
 table {
     width: 100%;
-    border-spacing: 0;
-    
+    border-collapse: collapse ;
+    font-size: 0.9em;
+    height: 200px;
 }
 
-thead {
-    height: 15px;
+.content-table thead tr {
+    
     background-color: #20AAE5;
-}
-
-.thcell1 {
-    width: 23%;
     text-align: left;
+    color: white;
+    font-weight: bold;
 }
 
-.thcell2 {
-    text-align: left;
+.content-table th {
+height: 10px;
 }
 
-tbody {
-    height: 95%;
+.content-table tbody tr {
+height: 30px;
 }
 
-.tbody_row {
-    background-color: #B1E5F2;
-    
+.content-table th td {
+    width: 33%;
 }
-/* footer section */
-footer {
-    margin-left: 10px;
+
+.content-table tbody tr:nth-of-type(odd) {
+background-color: #B1E5F2;
 }
+ 
+
+
 
 .foot_p {
     color: #808080;
